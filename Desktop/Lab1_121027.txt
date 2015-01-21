@@ -1,0 +1,180 @@
+
+LINUX LAB- 1 ASSIGNMENT
+
+
+1. Login as guest (password is guest123)
+	
+	$sudo -i -u guest-nqH2DB
+
+
+2. Find the present Directory
+	
+	$pwd
+
+
+3. Write the / directory structure
+	
+	$sudo apt-get install tree
+	$tree
+
+
+4. Write a few commands available in /bin and /sbin directory
+	
+	/bin : bash, chown, chmod, cpio,cp
+	/sbin :  cfdisk, cgdisk, bridge, dmsetup
+
+
+
+5. Find the guest directory
+	
+	/var/lib/AccountsService/users/guest-nqH2DB
+
+
+
+6. Write the permissions of guest directory
+	
+	drwxr-xr-x 2 guest-nqH2DB guest-nqH2DB   40 Jan 21 12:01 Desktop
+	drwxr-xr-x 2 guest-nqH2DB guest-nqH2DB   40 Jan 21 12:01 Documents
+	drwxr-xr-x 2 guest-nqH2DB guest-nqH2DB   40 Jan 21 12:01 Downloads
+	-rw-r--r-- 1 guest-nqH2DB guest-nqH2DB 8980 Jan 21 12:01 examples.desktop
+	drwxr-xr-x 2 guest-nqH2DB guest-nqH2DB   40 Jan 21 12:01 Music
+	drwxr-xr-x 2 guest-nqH2DB guest-nqH2DB   40 Jan 21 12:01 Pictures
+	drwxr-xr-x 2 guest-nqH2DB guest-nqH2DB   40 Jan 21 12:01 Public
+	drwxr-xr-x 2 guest-nqH2DB guest-nqH2DB   40 Jan 21 12:01 Templates
+	drwxr-xr-x 2 guest-nqH2DB guest-nqH2DB   40 Jan 21 12:01 Videos
+
+
+7. Create a new Directory test in guest directory
+	
+	$mkdir test
+
+
+8. Write the permissions of test directory
+	
+	drwxr-xr-x 2
+
+
+9. Copy the file /etc/resolv.conf in test directory
+	
+	cp /etc/resolv.conf test
+
+
+10. Rename the test directory to testing
+	
+	$mv test testing
+
+
+11. Delete the testing directory
+	
+	$rm testing
+
+
+12. Change the permissions of guest directory to 775
+	
+	$cd /
+	$cd tmp
+	$chmod 775 guest-nqH2DB
+
+
+
+13. Change the permissions of /tmp directory to 700
+	
+	$cd ..    $chmod 700 tmp
+	14. Login as root user 
+	$su root
+	
+	(CAUTION: This can cause some problems in logging to the ubuntu. My logging was stopped after doing this. I had to change back the permissions)
+
+15. Change the permissions of guest directory to 700
+	
+	$chmod 700 guest-nqH2DB
+
+
+16. The location of kernel files in Unix File System is /boot and by looking at the kernel file, write the kernel version you are using in your system.
+	
+	$uname -v
+	#57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014
+
+
+17. Login as guest
+	
+	$su guest-nqH2DB
+
+
+18. Change directory to /
+	
+	$cd /
+
+
+19. List the contents of /home directory
+	
+	$ls -a
+
+
+20. Find the group to which guest belongs
+	
+	$id guest-nqH2DB
+	uid=117(guest-nqH2DB) gid=125(guest-nqH2DB) groups=125(guest-nqH2DB)
+
+
+
+21. Create a file sidbi in the home area of guest (hint: use touch command)
+	
+	$touch sidbi
+
+
+22. Find the permissions of the file sidbi
+	
+	287765 -rw-rw-r-- 1 kunjan kunjan      0 Jan 21 13:12 sidbi
+
+
+23. Find the inode number of file sidbi (hint: ls –li)
+	
+	287765
+
+
+24. Copy the file sidbi to sidbi1
+	
+	$cp sidbi sidbi1
+
+
+25. Find the inode number of file sidbi1 (hint: ls –li)
+	
+	$ls -li
+
+
+26. Move the file sidbi to sidbi2
+	
+	$mv sidbi sidbi2
+
+
+27. Find the inode number of file sidbi2 (hint: ls –li)
+	
+	$ls -li
+
+
+28. Move sidbi2 to sidbi
+	
+	mv sidbi2 sidbi
+
+
+29. Login as root
+	
+	$sudo passwd root (create passwd for root if you havent created it)
+	$su root
+
+
+30. Create a new user guest1 with same group as guest (hint: use GUI tool ApplicationsSystem Settings Users and Groups)[More on this later in the course]
+
+31. Create a new user guest2 with a different group than the group of guest (hint: use GUI tool ApplicationsSystem Settings Users and Groups)
+
+32. Find, what permissions should the file sidbi have, so that both guest1 and guest2 can write into this file.
+
+		777 can give access to all users to append to a file.
+
+
+
+Home work :  Linux installation  step by step . Prefer manual installation to get deep understanding. 
+
+Guest login is presumed. Students may work in their individual logins. 
+Step 29 to 32 are based on your student access rights policy. Otherwise it may be followed on your personal laptops. 
