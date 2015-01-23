@@ -1,0 +1,247 @@
+NAME     LINE         TIME             COMMENT
+admin-hp :0           2015-01-23 15:03 (:0)
+admin-hp pts/13       2015-01-23 15:03 (:0)
+admin-hp pts/0        2015-01-23 16:38 (:0)
+Filesystem     1K-blocks     Used Available Use% Mounted on
+/dev/sda6       59080868  5284524  50772168  10% /
+none                   4        0         4   0% /sys/fs/cgroup
+udev             2993832        4   2993828   1% /dev
+tmpfs             600928     1136    599792   1% /run
+none                5120        0      5120   0% /run/lock
+none             3004620      224   3004396   1% /run/shm
+none              102400       60    102340   1% /run/user
+/dev/sda1         523248    21804    501444   5% /boot/efi
+/dev/sdb1        3983520  1416512   2567008  36% /media/admin-hp/KUNJAN
+/dev/sda5       82635352 25983504  56651848  32% /media/admin-hp/New Volume
+CreatedViaTerminal:
+Usage:	iw [options] command
+Options:
+	--debug		enable netlink debugging
+	--version	show version (3.4)
+Commands:
+	help [command]
+	event [-t] [-r] [-f]
+	phy
+	list
+	phy <phyname> info
+	dev
+	dev <devname> info
+	dev <devname> del
+	dev <devname> interface add <name> type <type> [mesh_id <meshid>] [4addr on|off] [flags <flag>*]
+	phy <phyname> interface add <name> type <type> [mesh_id <meshid>] [4addr on|off] [flags <flag>*]
+	dev <devname> ibss join <SSID> <freq in MHz> [HT20|HT40+|HT40-|NOHT] [fixed-freq] [<fixed bssid>] [beacon-interval <TU>] [basic-rates <rate in Mbps,rate2,...>] [mcast-rate <rate in Mbps>] [key d:0:abcde]
+	dev <devname> ibss leave
+	dev <devname> station dump
+	dev <devname> station set <MAC address> vlan <ifindex>
+	dev <devname> station set <MAC address> plink_action <open|block>
+	dev <devname> station del <MAC address>
+	dev <devname> station get <MAC address>
+	dev <devname> survey dump
+	dev <devname> mesh leave
+	dev <devname> mesh join <mesh ID> [mcast-rate <rate in Mbps>] [<param>=<value>]*
+	dev <devname> mpath dump
+	dev <devname> mpath set <destination MAC address> next_hop <next hop MAC address>
+	dev <devname> mpath new <destination MAC address> next_hop <next hop MAC address>
+	dev <devname> mpath del <MAC address>
+	dev <devname> mpath get <MAC address>
+	dev <devname> scan [-u] [freq <freq>*] [ies <hex as 00:11:..>] [ssid <ssid>*|passive]
+	dev <devname> scan trigger [freq <freq>*] [ies <hex as 00:11:..>] [ssid <ssid>*|passive]
+	dev <devname> scan dump [-u]
+	reg get
+	reg set <ISO/IEC 3166-1 alpha2>
+	dev <devname> connect [-w] <SSID> [<freq in MHz>] [<bssid>] [key 0:abcde d:1:6162636465]
+	dev <devname> disconnect
+	dev <devname> link
+	dev <devname> offchannel <freq> <duration>
+	dev <devname> cqm rssi <threshold|off> [<hysteresis>]
+	phy <phyname> wowlan show 
+	phy <phyname> wowlan disable 
+	phy <phyname> wowlan enable [any] [disconnect] [magic-packet] [gtk-rekey-failure] [eap-identity-request] [4way-handshake] [rfkill-release] [patterns <pattern>*]
+	dev <devname> roc start <freq> <time>
+	phy <phyname> set antenna <bitmap> | all | <tx bitmap> <rx bitmap>
+	dev <devname> set txpower <auto|fixed|limit> [<tx power in mBm>]
+	phy <phyname> set txpower <auto|fixed|limit> [<tx power in mBm>]
+	phy <phyname> set distance <distance>
+	phy <phyname> set coverage <coverage class>
+	phy <phyname> set netns <pid>
+	phy <phyname> set rts <rts threshold|off>
+	phy <phyname> set frag <fragmentation threshold|off>
+	dev <devname> set channel <channel> [HT20|HT40+|HT40-]
+	phy <phyname> set channel <channel> [HT20|HT40+|HT40-]
+	dev <devname> set freq <freq> [HT20|HT40+|HT40-]
+	phy <phyname> set freq <freq> [HT20|HT40+|HT40-]
+	phy <phyname> set name <new name>
+	dev <devname> set peer <MAC address>
+	dev <devname> set noack_map <map>
+	dev <devname> set 4addr <on|off>
+	dev <devname> set type <type>
+	dev <devname> set meshid <meshid>
+	dev <devname> set monitor <flag>*
+	dev <devname> set mesh_param <param>=<value> [<param>=<value>]*
+	dev <devname> set power_save <on|off>
+	dev <devname> set bitrates [legacy-<2.4|5> <legacy rate in Mbps>*] [mcs-<2.4|5> <MCS index>*]
+	dev <devname> get mesh_param [<param>]
+	dev <devname> get power_save <param>
+
+65: 5 13
+1,2c1
+< heue mei name is vj
+< abc
+---
+> Hi! My name is vraj.
+heue mei name is vj.
+44	.
+/dev/pts/0
+
+You can omit the 'phy' or 'dev' if the identification is unique,
+e.g. "iw wlan0 info" or "iw phy0 info". (Don't when scripting.)
+
+Do NOT screenscrape this tool, we don't consider its output stable.
+
+admin-hp pts/0        :0               Fri Jan 23 16:38   still logged in   
+admin-hp pts/13       :0               Fri Jan 23 15:03   still logged in   
+admin-hp :0           :0               Fri Jan 23 15:03   still logged in   
+reboot   system boot  3.13.0-44-generi Fri Jan 23 15:03 - 17:24  (02:21)    
+admin-hp pts/23       :0               Fri Jan 23 14:15 - 15:02  (00:47)    
+admin-hp :0           :0               Fri Jan 23 13:54 - down   (01:08)    
+reboot   system boot  3.13.0-32-generi Fri Jan 23 13:54 - 15:02  (01:08)    
+admin-hp pts/1        :0               Thu Jan 22 19:48 - 19:55  (00:06)    
+admin-hp pts/4        :0               Thu Jan 22 19:40 - 19:40  (00:00)    
+admin-hp :0           :0               Thu Jan 22 19:40 - down   (00:15)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 19:40 - 19:55  (00:15)    
+admin-hp :0           :0               Thu Jan 22 23:38 - down   (-5:-25)   
+reboot   system boot  3.13.0-32-generi Thu Jan 22 23:38 - 18:13  (-5:-25)   
+admin-hp :0           :0               Thu Jan 22 21:54 - down   (00:23)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 21:53 - 22:17  (00:24)    
+admin-hp :0           :0               Thu Jan 22 20:10 - down   (00:04)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 20:10 - 20:14  (00:04)    
+admin-hp :0           :0               Thu Jan 22 20:03 - down   (00:04)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 20:02 - 20:07  (00:04)    
+admin-hp :0           :0               Thu Jan 22 19:47 - down   (00:03)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 19:47 - 19:50  (00:03)    
+
+wtmp begins Thu Jan 22 19:47:05 2015
+abc
+heue mei name is shikhuwg.
+eth0      Link encap:Ethernet  HWaddr 84:34:97:7f:bf:d4  
+          inet addr:10.20.3.222  Bcast:10.20.7.255  Mask:255.255.248.0
+          inet6 addr: fe80::8634:97ff:fe7f:bfd4/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:910225 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:160137 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:465434910 (465.4 MB)  TX bytes:10481648 (10.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:10442 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10442 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:999047 (999.0 KB)  TX bytes:999047 (999.0 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 20:68:9d:ce:96:73  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+Linux admin-hp 3.13.0-44-generic #73-Ubuntu SMP Tue Dec 16 00:22:43 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+5
+6
+7
+8
+9
+10
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       838  0.0  0.0  20016   964 tty4     Ss+  15:03   0:00 /sbin/getty -8 38400 tty4
+root       842  0.0  0.0  20016   968 tty5     Ss+  15:03   0:00 /sbin/getty -8 38400 tty5
+root       849  0.0  0.0  20016   956 tty2     Ss+  15:03   0:00 /sbin/getty -8 38400 tty2
+root       850  0.0  0.0  20016   952 tty3     Ss+  15:03   0:00 /sbin/getty -8 38400 tty3
+root       853  0.0  0.0  20016   956 tty6     Ss+  15:03   0:00 /sbin/getty -8 38400 tty6
+root      1049  0.0  0.0  20016   968 tty1     Ss+  15:03   0:00 /sbin/getty -8 38400 tty1
+root      1060  2.7  1.2 374572 77308 tty7     Ssl+ 15:03   3:50 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root     24079  0.0  0.0  71480  2392 pts/0    S    16:47   0:00 sudo su
+root     24080  0.0  0.0  70820  1836 pts/0    S    16:47   0:00 su
+root     24081  0.0  0.0  25284  2228 pts/0    S    16:47   0:00 bash
+root     24392  0.0  0.0   4444   676 pts/0    T    17:11   0:00 sh OS_fileWriting.sh
+root     24421  0.0  0.0  29148  1704 pts/0    T    17:11   0:00 top
+root     24439  0.0  0.0   4444   676 pts/0    T    17:11   0:00 sh OS_fileWriting.sh
+root     24467  0.0  0.0  29148  1708 pts/0    T    17:11   0:00 top
+root     24489  0.0  0.0   4444   680 pts/0    T    17:12   0:00 sh OS_fileWriting.sh
+root     24516  0.0  0.0  29148  1704 pts/0    T    17:12   0:00 top
+root     24544  0.0  0.0   4444   676 pts/0    T    17:13   0:00 sh OS_fileWriting.sh
+root     24575  0.0  0.0  29148  1712 pts/0    T    17:13   0:00 top
+root     24605  0.0  0.0   4444   676 pts/0    T    17:14   0:00 sh OS_fileWriting.sh
+root     24635  0.0  0.0  29148  1712 pts/0    T    17:14   0:00 top
+root     24895  0.0  0.0   4444   680 pts/0    T    17:18   0:00 sh OS_fileWriting.sh
+root     24925  0.0  0.0  29148  1712 pts/0    T    17:18   0:00 top
+root     24967  0.0  0.0   4444   676 pts/0    T    17:20   0:00 sh OS_fileWriting.sh
+root     24996  0.0  0.0  29148  1712 pts/0    T    17:20   0:00 top
+root     25031  0.0  0.0   4444   680 pts/0    T    17:21   0:00 sh OS_fileWriting.sh
+root     25057  0.2  0.0  29148  1720 pts/0    T    17:21   0:00 top
+root     25134  0.0  0.0   4444   680 pts/0    T    17:23   0:00 sh OS_fileWriting.sh
+root     25163  0.0  0.0  29148  1736 pts/0    T    17:23   0:00 top
+root     25185  0.0  0.0   4444   688 pts/0    T    17:24   0:00 sh OS_fileWriting.sh
+root     25213  0.1  0.0  29148  1732 pts/0    T    17:24   0:00 top
+root     25216  0.0  0.0   4444   688 pts/0    S+   17:24   0:00 sh OS_fileWriting.sh
+root     25231  0.0  0.0  22644  1308 pts/0    R+   17:24   0:00 ps -u
+         system boot  2015-01-23 15:03
+             total       used       free     shared    buffers     cached
+Mem:       6009244    3143520    2865724     207780     119840    2132528
+-/+ buffers/cache:     891152    5118092
+Swap:      6190076          0    6190076
+heue mei name is shikhuwg.
+abc
+heue mei name is shikhuwg.
+abc
+[?1h=[?25l[H[2J(B[mtop - 17:24:30 up  2:21,  3 users,  load average: 0.12, 0.17, 0.15(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 206 (B[m[39;49msleeping,(B[m[39;49m[1m  27 (B[m[39;49mstopped,(B[m[39;49m[1m   3 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  4.4 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.3 (B[m[39;49mni,(B[m[39;49m[1m 93.1 (B[m[39;49mid,(B[m[39;49m[1m  1.2 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m  6009244 (B[m[39;49mtotal,(B[m[39;49m[1m  3143920 (B[m[39;49mused,(B[m[39;49m[1m  2865324 (B[m[39;49mfree,(B[m[39;49m[1m   119840 (B[m[39;49mbuffers(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  6190076 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m  6190076 (B[m[39;49mfree.(B[m[39;49m[1m  2132520 (B[m[39;49mcached Mem(B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND     (B[m[39;49m[K
+(B[m[1m25244 root      20   0   29144   1556   1072 R   6.3  0.0   0:00.01 top         (B[m[39;49m[K
+(B[m    1 root      20   0   33788   3100   1468 S   0.0  0.1   0:01.19 init        (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S   0.0  0.0   0:00.04 ksoftirqd/0 (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:03.12 rcu_sched   (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S   0.0  0.0   0:01.10 rcuos/0     (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S   0.0  0.0   0:01.13 rcuos/1     (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 S   0.0  0.0   0:02.22 rcuos/2     (B[m[39;49m[K
+(B[m   11 root      20   0       0      0      0 S   0.0  0.0   0:00.76 rcuos/3     (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuos/4     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuos/5     (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuos/6     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuos/7     (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/0     (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/1     (B[m[39;49m[K[H(B[mtop - 17:24:33 up  2:21,  3 users,  load average: 0.12, 0.17, 0.15(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   2 (B[m[39;49mrunning,(B[m[39;49m[1m 205 (B[m[39;49msleeping,(B[m[39;49m[1m  27 (B[m[39;49mstopped,(B[m[39;49m[1m   3 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.9 (B[m[39;49mus,(B[m[39;49m[1m  0.4 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m  6009244 (B[m[39;49mtotal,(B[m[39;49m[1m  3143940 (B[m[39;49mused,(B[m[39;49m[1m  2865304 (B[m[39;49mfree,(B[m[39;49m[1m   119840 (B[m[39;49mbuffers(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  6190076 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m  6190076 (B[m[39;49mfree.(B[m[39;49m[1m  2132524 (B[m[39;49mcached Mem(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1962 admin-hp  20   0 1112960  41972  23152 S   1.7  0.7   0:21.99 nautilus    (B[m[39;49m[K
+(B[m  778 avahi     20   0   33672   2980   1392 S   1.3  0.0   4:20.81 avahi-daem+ (B[m[39;49m[K
+(B[m 1613 admin-hp  20   0  657572  34912  16044 S   1.0  0.6   0:09.10 hud-service (B[m[39;49m[K
+(B[m 1060 root      20   0  374572  77308  58164 S   0.3  1.3   3:50.06 Xorg        (B[m[39;49m[K
+(B[m 1541 admin-hp  20   0   40704   2960   1100 S   0.3  0.0   0:05.19 dbus-daemon (B[m[39;49m[K
+(B[m 1668 admin-hp  20   0  566816  15204   9296 S   0.3  0.3   0:05.66 bamfdaemon  (B[m[39;49m[K
+(B[m 1915 admin-hp  20   0 1306064  78488  31840 S   0.3  1.3   2:55.20 compiz      (B[m[39;49m[K
+(B[m[1m25244 root      20   0   29148   1736   1168 R   0.3  0.0   0:00.02 top         (B[m[39;49m[K
+(B[m    1 root      20   0   33788   3100   1468 S   0.0  0.1   0:01.19 init        (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S   0.0  0.0   0:00.04 ksoftirqd/0 (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:03.12 rcu_sched   (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S   0.0  0.0   0:01.10 rcuos/0     (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S   0.0  0.0   0:01.13 rcuos/1     (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 S   0.0  0.0   0:02.22 rcuos/2     (B[m[39;49m[K
+(B[m   11 root      20   0       0      0      0 S   0.0  0.0   0:00.76 rcuos/3     (B[m[39;49m[K[?1l>[25;1H[?12l[?25h
